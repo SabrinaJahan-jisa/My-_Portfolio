@@ -1,5 +1,5 @@
 # My-_Portfolio
-# 👋 Hi, I'm Sabrina Jahan
+# Hi, I'm Sabrina Jahan
 
 I'm a beginner web developer passionate about building clean and responsive websites.
 

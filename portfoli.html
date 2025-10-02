@@ -1,0 +1,120 @@
+<!-- Portfolio Section -->
+ <head><style>.portfolio-section {
+    padding: 80px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: var(--dark);
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+    color: var(--text-light);
+    margin-bottom: 40px;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .portfolio-item {
+    background: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+  }
+  
+  .portfolio-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .portfolio-info {
+    padding: 20px;
+  }
+  
+  .portfolio-info h3 {
+    font-size: 1.2rem;
+    color: var(--primary);
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-info p {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    margin-bottom: 15px;
+  }
+  
+  .portfolio-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .small-btn {
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
+  }
+  </style>
+ 
+  </head>
+<section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <h2 class="section-title">My Portfolio</h2>
+      <p class="section-subtitle">Here are some of the projects I've worked on recently.</p>
+      
+      <div class="portfolio-grid">
+        <!-- Project 1 -->
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x250" alt="Project 1">
+          <div class="portfolio-info">
+            <h3>Project One</h3>
+            <p>A responsive landing page built using HTML, CSS, and JavaScript.</p>
+            <div class="portfolio-links">
+              <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+              <a href="#" target="_blank" class="btn small-btn">GitHub</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 2 -->
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x250" alt="Project 2">
+          <div class="portfolio-info">
+            <h3>Project Two</h3>
+            <p>A full-stack blog application built with Node.js and MongoDB.</p>
+            <div class="portfolio-links">
+              <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+              <a href="#" target="_blank" class="btn small-btn">GitHub</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 3 -->
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x250" alt="Project 3">
+          <div class="portfolio-info">
+            <h3>Project Three</h3>
+            <p>A modern portfolio website with animations and responsive design.</p>
+            <div class="portfolio-links">
+              <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+              <a href="#" target="_blank" class="btn small-btn">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
